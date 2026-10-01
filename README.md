@@ -1,70 +1,38 @@
-## 📊 Project Overview
+# SWYNEX Swiggy Data Analytics Project
 
-This project was developed as part of my **Data Analyst Internship at SWYNEX Technologies**.
+## 📌 Project Overview
 
-The objective of this project is to analyze Swiggy restaurant data and create an interactive **Power BI dashboard** that provides insights into restaurant performance, cuisines, ratings, pricing, offers, and locations.
+This project is an end-to-end **Swiggy Restaurant Data Analytics** project completed as part of the **SWYNEX Data Analyst Internship**.
 
-## 🛠️ Tools & Technologies
+The project focuses on cleaning and preparing restaurant data, performing exploratory data analysis (EDA), identifying useful business insights, and creating an interactive **Power BI dashboard**.
 
-- Power BI
-- Power Query
-- DAX
-- Excel / CSV
-- Data Visualization
+## 🎯 Objectives
 
-## 🔍 Key Analysis
+- Clean and prepare the Swiggy restaurant dataset
+- Handle missing values and duplicate records
+- Identify inconsistent data and data-quality issues
+- Perform exploratory data analysis using Python and Pandas
+- Analyze restaurant ratings, prices, cuisines, locations and offers
+- Create an interactive Power BI dashboard
+- Generate meaningful business insights from the data
 
-The dashboard provides analysis of:
+## 🗂️ Project Structure
 
-- Total Restaurants
-- Average Restaurant Rating
-- Average Restaurant Price
-- Total Offers
-- Total Ratings
-- Restaurant Distribution by Location
-- Restaurant Distribution by Cuisine
-- Top 10 Restaurants
-- Rating Analysis
-- Price Category Analysis
-- Pure Veg vs Non-Veg Restaurants
-- Offers Analysis
-- Rating vs Average Price
-
-## 📈 Dashboard Features
-
-- Interactive slicers and filters
-- KPI cards
-- Bar and column charts
-- Donut charts
-- Scatter plot
-- Top 10 analysis
-- Location-wise analysis
-- Cuisine-wise analysis
-- Rating and pricing analysis
-
-## 📂 Project Files
-
-- `Swiggy_Cleaned.csv` – Cleaned dataset
-- `Swiggy_Restaurant_Analytics.pbix` – Power BI dashboard
-- `README.md` – Project documentation
-- `Screenshots/` – Dashboard screenshots
-
-## 🎯 Project Objective
-
-The main objective is to transform raw restaurant data into meaningful visual insights that can support data-driven decision-making.
-
-## 👩‍💻 Internship
-
-**SWYNEX Technologies – Data Analyst Internship**
-
-This project helped me strengthen my practical skills in:
-
-- Data Cleaning
-- Data Transformation
-- Data Visualization
-- Power BI
-- DAX
-- Business Analytics
-- Dashboard Development
-
-#PowerBI #DataAnalytics #DataAnalyst #DAX #PowerQuery #DataVisualization #SWYNEX
+```text
+SWYNEX-Swiggy-Data-Analytics/
+│
+├── README.md
+├── FINAL_PROJECT_REPORT.pdf
+│
+├── data/
+│   └── swiggy_cleaned.csv.gz
+│
+├── notebooks/
+│   └── Swiggy_EDA_SWYNEX_Task2.ipynb
+│
+├── dashboard/
+│   └── README.md
+│
+└── docs/
+    ├── data_dictionary.md
+    └── project_summary.md
